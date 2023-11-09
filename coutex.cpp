@@ -25,4 +25,5 @@ int main()
 
     f = 9.0/5;
     cout << f << '\n';
+    return 0;
 }
