@@ -15,7 +15,18 @@ int main()
     {
         greeting += ", I know you!";
     }
+
     cout << greeting << '\n';
+
+    int l = greeting.length();
+    cout << "\"" + greeting + "\" is " << l << "characters long." << '\n';
+    string beginning = greeting.substr(greeting.find(' ') + 1);
+    cout << beginning << '\n';
+    if (beginning == name)
+    {
+        cout << "expected result." << '\n';
+    }
+
     return 0;
 
 }
